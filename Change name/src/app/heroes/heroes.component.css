@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.text {
+  font-family: 'PT Mono', monospace;
+  color: #FFFFFF;
+  font-size: 20px;
+  text-align: center;
+  margin: 30px auto 0;
+  cursor: default;
+  position: relative;
+  z-index: 10;
+}
+
+.container {
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 20px auto auto;
+  width: 100%;
+  position: relative;
+  z-index: 10;
+}
+
+.container-text {
+  font-family: 'PT Mono', monospace;
+  color: #8b8f91;
+  font-size: 14px;
+  width: 100%;
+  margin: 0 auto 10px;
+  text-align: center;
+  cursor: default;
+}
+
+.label {
+  margin: 0 auto auto;
+}
+
+.field {
+  font-family: 'PT Mono', monospace;
+  background: rgba(255,91,61,.1);
+  padding: 5px 0;
+  text-align: center;
+  color: #bcc1c4;
+  outline: none;
+  border: 1px solid rgba(255,91,61,.5);
+  border-radius: 4px;
+}

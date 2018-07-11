@@ -1,0 +1,7 @@
+<p class="text">It's {{ hero.name | uppercase }} name</p>
+<div class="container">
+  <p class="container-text">If you wont you can choose a different name for your hero!</p>
+  <label class="label" for="hero_name">
+    <input [(ngModel)]="hero.name" class="field" id="hero_name" placeholder="Hero's name">
+  </label>
+</div>
