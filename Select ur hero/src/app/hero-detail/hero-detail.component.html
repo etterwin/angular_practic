@@ -1,0 +1,27 @@
+<!--<div *ngIf="selectedHero" class="select__container">
+
+  <h2>{{selectedHero.name | uppercase}} Details</h2>
+  <div class="select__block">
+    <span class="select-block-num">id: </span>
+    <p class="select-block-text">{{selectedHero.id}}</p>
+  </div>
+  <div class="select__field">
+    <label class="select-label" for="field">name:</label>
+    <input class="select-field" id="field" [(ngModel)]="selectedHero.name" placeholder="name">
+  </div>
+
+</div>-->
+
+<div *ngIf="hero">
+
+  <h2 class="select-caption">{{hero.name | uppercase}} Details</h2>
+  <div class="select__block">
+    <span class="select-block-num">id:</span>
+    <p class="select-block-text">{{hero.id}}</p>
+  </div>
+  <div class="select__field">
+    <label class="select-label" for="field">name:</label>
+      <input class="select-field" id="field" [(ngModel)]="hero.name" placeholder="name"/>
+  </div>
+
+</div>

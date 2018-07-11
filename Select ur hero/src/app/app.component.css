@@ -1,0 +1,24 @@
+.container {
+  width: calc(100% - 100px);
+  margin: 30px auto 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.container-logo {
+  width: 50px;
+  height: auto;
+  margin: auto 50px auto auto;
+}
+
+.container-caption {
+  font-family: 'Roboto Mono', sans-serif;
+  font-size: 32px;
+  margin: auto auto auto 0;
+  color: #F1F1F1;
+}
+
+.container-caption span {
+  font-weight: 600;
+}
